@@ -9,6 +9,10 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
+		<compilerArguments>
+		<source>1.8</source>
+		<target>1.8</target>
+		</compilerArguments>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
